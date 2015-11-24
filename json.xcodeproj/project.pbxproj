@@ -13,6 +13,7 @@
 		DB4DAD821C04518B00E7FACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4DAD801C04518B00E7FACA /* Main.storyboard */; };
 		DB4DAD841C04518B00E7FACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4DAD831C04518B00E7FACA /* Assets.xcassets */; };
 		DB4DAD871C04518B00E7FACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4DAD851C04518B00E7FACA /* LaunchScreen.storyboard */; };
+		DB6AAAC41C04855D00E0A2EA /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6AAAC31C04855D00E0A2EA /* Media.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DB4DAD831C04518B00E7FACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB4DAD861C04518B00E7FACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB4DAD881C04518B00E7FACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6AAAC21C04855D00E0A2EA /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
+		DB6AAAC31C04855D00E0A2EA /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				DB4DAD851C04518B00E7FACA /* LaunchScreen.storyboard */,
 				DB4DAD881C04518B00E7FACA /* Info.plist */,
 				DB4DAD771C04518B00E7FACA /* Supporting Files */,
+				DB6AAAC21C04855D00E0A2EA /* Media.h */,
+				DB6AAAC31C04855D00E0A2EA /* Media.m */,
 			);
 			path = json;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				DB4DAD7F1C04518B00E7FACA /* ViewController.m in Sources */,
 				DB4DAD7C1C04518B00E7FACA /* AppDelegate.m in Sources */,
+				DB6AAAC41C04855D00E0A2EA /* Media.m in Sources */,
 				DB4DAD791C04518B00E7FACA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +305,7 @@
 				DB4DAD8D1C04518B00E7FACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
